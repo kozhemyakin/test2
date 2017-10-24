@@ -1,10 +1,11 @@
+
 https://www.youtube.com/watch?v=XSPgZHkisxw&list=PLOQDek48BpZFaSumYo2kwQfcyrZEF6XkI&index=4
 
 
 git commit -a -m "comment here"
 
 
-
+git add *.txt
 
 git log
 git log --pretty=format:"%ad" #display date of commits
@@ -25,3 +26,8 @@ git checkout master
 git checkout master
 git merge testbranch #sliyanie vetki testbranch v master
 git branch -d testbranch #delete testbranch
+
+git remote add origin https://github.com/kozhemyakin/test2.git
+
+git fetch https://github.com/kozhemyakin/test2.git
+git pull #iz githuba v papku vse slivaet

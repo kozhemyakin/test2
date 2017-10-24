@@ -28,6 +28,8 @@ git checkout master
 git merge testbranch #sliyanie vetki testbranch v master
 git branch -d testbranch #delete testbranch
 
+
+git push -u origin master
 git remote add origin https://github.com/kozhemyakin/test2.git
 
 git fetch https://github.com/kozhemyakin/test2.git

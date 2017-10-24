@@ -30,6 +30,7 @@ git branch -d testbranch #delete testbranch
 
 
 git push -u origin master
+git push -u master testbranch #iz mastera v testbranch na github 
 git remote add origin https://github.com/kozhemyakin/test2.git
 
 git fetch https://github.com/kozhemyakin/test2.git

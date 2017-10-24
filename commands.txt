@@ -1,0 +1,27 @@
+https://www.youtube.com/watch?v=XSPgZHkisxw&list=PLOQDek48BpZFaSumYo2kwQfcyrZEF6XkI&index=4
+
+
+git commit -a -m "comment here"
+
+
+
+
+git log
+git log --pretty=format:"%ad" #display date of commits
+git log --since="2016-30-12 00:00:00"
+
+git tag
+git tag -a v.1.0 -m "Project begins" #sozdanie tega
+git show v.1.0
+
+git branch testbranch #sozdanie vetki
+git checkout -b mybranch2  #srazu sozdanie vetki i perehod v nee
+
+git log --oneline --decorate #vivod loga
+
+git checkout testbranch # perehod v vetku
+git checkout master
+
+git checkout master
+git merge testbranch #sliyanie vetki testbranch v master
+git branch -d testbranch #delete testbranch
